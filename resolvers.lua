@@ -90,7 +90,7 @@ local function resolve(player)
 
     --[[]]-- our resolver start
     plist.set(player, "Force body yaw", true)
-    plist.set(player, "Force body yaw value", math.random(22))
+    plist.set(player, "Force body yaw value", math.random(48, 33, 22, 18))
 end
 
 local function on_setup_command()
